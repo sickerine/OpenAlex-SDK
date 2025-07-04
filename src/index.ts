@@ -267,6 +267,7 @@ export default class OpenAlex {
       if (toCsv) {
         convertToCSV(response.data.results, toCsv);
       }
+      response.data.meta.url = url;
       return response.data;
     } else {
       throw new Error(`Error ${response.status}: ${response.statusText}`);
