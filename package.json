@@ -1,7 +1,7 @@
 {
-  "name": "openalex-sdk",
-  "version": "1.1.5",
-  "description": "",
+  "name": "@sickrin/openalex-sdk",
+  "version": "1.0.0",
+  "description": "A TypeScript SDK for interacting with the OpenAlex API - forked and enhanced version",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "scripts": {
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OpenDevEd/OpenAlex-SDK.git"
+    "url": "git+https://github.com/sei/OpenAlex-SDK.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["openalex", "api", "sdk", "typescript", "academic", "research"],
+  "author": "sickrin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OpenDevEd/OpenAlex-SDK/issues"
+    "url": "https://github.com/sei/OpenAlex-SDK/issues"
   },
-  "homepage": "https://github.com/OpenDevEd/OpenAlex-SDK#readme",
+  "homepage": "https://github.com/sei/OpenAlex-SDK#readme",
   "dependencies": {
     "axios": "^1.6.7",
     "eslint-plugin-jest": "^27.9.0",
