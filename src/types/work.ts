@@ -257,6 +257,7 @@ export type Works = {
   };
   results: Work[];
   group_by?: ResultsGroupBy[];
+  url?: string;
 };
 export type SearchParameters = {
   search?: string;
