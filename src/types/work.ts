@@ -254,10 +254,10 @@ export type Works = {
     per_page: number;
     groups_count: null | number;
     next_cursor: string;
+    url?: string;
   };
   results: Work[];
   group_by?: ResultsGroupBy[];
-  url?: string;
 };
 export type SearchParameters = {
   search?: string;
